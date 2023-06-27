@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black-500: #2B2B2B;
+    --red-500: #C70000;
+    --gray-300: #737373;
+    --white-500: #fff;
+    --gray-200: #EAEAEA;
+    --gray-100: #F5F5F5;
+}
+
+
+img {
+    width: 215px;
+    height: 290px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 7rem;
+    background-color: var(--gray-200);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-100);
+
+}
+
+#login {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    gap: 1.3rem;
+    margin-top: -2rem;
+    width: 215px;
+}
+
+#preenchimento{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -9px;
+}
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: var(--black-500);
+}
+
+input{
+    border: 1px solid #737373;
+    font-size: 9px;
+    border-radius: 7px;
+    width: 170px;
+    height: 25px;
+    padding-left: 12px;
+    margin-top: 3px;
+}
+
+label{
+    color: var(--gray-300);
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: var(--red-500);
+    color: var(--white-500);
+    width: 170px;
+    height: 27px;
+    border-radius: 7px;
+    font-size: 9px;
+}
+
+#esqueci{
+    font-size: 8px;
+    color: var(--gray-300);
+    margin-top: -13px;
+}
